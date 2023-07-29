@@ -75,7 +75,7 @@ nav {
 }
 
 #nav-toggle {
-        display: none;
+    display: none;
 }
 
 .nav-toggle-label {
@@ -118,11 +118,11 @@ main {
     }
 
     #menu {
-        display:flex;
+        display: flex;
     }
 
     #menu > li {
-        padding: 1rem;
+        padding-left: 1rem;
     }
 
     .nav-toggle-label {
@@ -143,9 +143,9 @@ main {
 }
 
 /* Large devices (laptop and desktops, 992px and up) */
-@media screen and (min-width#; 992px) {
-        #menu a:hover{
-            border-bottom: 1px solid #3a3a3a;
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
         }
 }
 
