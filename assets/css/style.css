@@ -1,26 +1,24 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/* Askerisk wildcard selector to override defau;t styles added by the browser */
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* General Styles rule */
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic Style project style */
+    /* Generic Style project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -51,7 +49,7 @@ header a {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -84,7 +82,7 @@ nav {
     font-size: 2rem;
 }
 
-/* Main Content */
+/* Main content */
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
@@ -111,8 +109,7 @@ main {
     padding-left: 10px;
 }
 
-#cover-text>h2,
-#cover-text>h3 {
+#cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
 
@@ -148,7 +145,7 @@ main {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
     }
 
@@ -164,14 +161,14 @@ main {
 
     /* Main content */
     main {
-        /* Push main content down to accomadate larger header */
+        /* Push main content down to accomodate larger header */
         margin-top: 79px;
     }
 }
 
-/* Large devices (laptop and desktops, 992px and up) */
+/* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
+    #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
 }
