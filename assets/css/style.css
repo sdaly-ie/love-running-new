@@ -181,17 +181,17 @@ main {
     Each div will expand to fill the available space on its row */
     flex-basis: 200px;
     flex-grow: 1;
-    /* Creates a grid of meetup tme divs over the background image */
+    /* Creates a grid of meetup time divs over the background image */
     border: 2px solid white;
 }
 
 #times h3 {
-    /* Override the handling colour set in general styles */
+    /* Override the heading colour set in general styles */
     color: #fafafa;
 }
 
-/* Gallery Images */
-#photo img {
+/* Gallery page */
+#photos img {
     width: 100%;
     line-height: 1em;
 }
@@ -220,11 +220,6 @@ main {
     #photos {
         column-count: 2;
         column-gap: 0;
-    }
-
-    /* Gallery */
-    #photos {
-        column-count: 3;
     }
 
 }
@@ -279,7 +274,7 @@ main {
         width: 100%;
     }
 
-    #benefits-physica>div,
+    #benefits-physical>div,
     #benefits-mental>div {
         width: 75%;
     }
@@ -288,6 +283,11 @@ main {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -295,11 +295,11 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-}
 
-/* Gallery */
-#photos {
-    column-count: 4;
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
 }
 
 @media screen and (min-width: 1200px) {
